@@ -1,0 +1,36 @@
+
+company_name: Copyright 2021 Google LLC
+# this appears in the footer
+
+#github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+host: 127.0.0.1
+
+port: 4000
+
+exclude:
+  - .idea/
+  - .gitignore
+  - vendor
+# these are the files and directories that jekyll will exclude from the build
+
+# feedback_link: "http://helpy.io/"
+# if you uncomment the previous line, it changes where the feedback link points to
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+
+# needed for sitemap.xml file only
+url: https://greyfox33.github.io
+
+
+
+
+
+

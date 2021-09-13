@@ -27,18 +27,18 @@
   <meta property="og:description" content="{{ site.description | xml_escape }}" />
 {% endif %}
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+  <link rel="canonical" href="{{ page.url }}" />
 
 <!--[if lt IE 9]>
-  <script src="{{ site.baseurl }}/assets/js/vendor/html5shiv.js"></script>
+  <script src="/assets/js/vendor/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Favicons
 ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="{{ site.baseurl }}/assets/dist/img/favicons/favicon.ico" />
+  <link rel="shortcut icon" type="image/ico" href="/assets/img/favicons/favicon.ico" />
 
 <!-- CSS
 ================================================== -->
-  <link rel="stylesheet" href="{{ "/assets/dist/css/styleguide.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/assets/css/styleguide.css" }}">
 

@@ -2,7 +2,7 @@
 permalink: /experience/
 layout: page
 title: Experience
-image: /assets/dist/img/1.jpg
+image: /assets/img/1.jpg
 ---
 
 The project portfolio for OTS includes the current active projects:

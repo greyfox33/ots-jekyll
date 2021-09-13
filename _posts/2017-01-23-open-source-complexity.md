@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Open Source Complexity
-image: assets/dist/img/2.png
+image: /assets/img/2.png
 excerpt: While the use of open source software in government projects offers huge benefits, its not without challenges
 ---
 Back in the 70s and 80s, it was IBM and mainframe. Then Client Server done by system integrators like Accenture, Deloitte and EDS. Now State/Fed government departments are supposed to build solutions using both open source software components, as well as ensure that solutions are available for other gov entities to reuse under open source licenses.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Microservices -- A Wolf in Sheeps Clothing
-image: assets/dist/img/1.jpg
+image: /assets/img/1.jpg
 excerpt: IT infrastructure divides like a cell every time a new standard of abstraction is universally adopted [e.g. mainframe to web to now, microservices].
 ---
 "IT infrastructure divides like a cell every time a new standard of abstraction is universally adopted [e.g. mainframe to web to now, microservices]. Each successful iteration has brought with it a new era of computing where time to value decreased, cost of development decreased and a new set of large market cap companies were born." - Matt Miller, WSJ

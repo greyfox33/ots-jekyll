@@ -2,7 +2,7 @@
 permalink: /company/
 layout: page
 title: Company
-image: /assets/dist/img/1.jpg
+image: /assets/img/1.jpg
 ---
 
 You've started your project, but you could use some help.

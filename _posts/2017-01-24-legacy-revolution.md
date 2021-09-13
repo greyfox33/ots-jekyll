@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legacy Modernization Revolution (Part 1)
-image: assets/dist/img/rev2.jpg
+image: /assets/img/rev2.jpg
 excerpt: Changes are afoot in government application development
 ---
 

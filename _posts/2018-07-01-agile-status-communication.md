@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Communicating Project Progress
-image: assets/dist/img/battle.jpg
+image: /assets/img/battle.jpg
 excerpt: Communicating project progress, and the differences between Agile vs. Waterfall
 ---
  

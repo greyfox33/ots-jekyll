@@ -4,7 +4,7 @@ layout: default
 title: Oak Technical Services
 ---
 
-<div class="hero" style="background:url('{{ site.baseurl }}/assets/dist/img/hero.jpg')">
+<div class="hero" style="background:url('/assets/img/hero.jpg')">
   <div class="hero-content">
     <h1>Oak Technical Services</h1>
     <p>Bringing government software projects to fruition</p>
@@ -15,17 +15,17 @@ title: Oak Technical Services
   <h2 class="usa-heading text-center">Services</h2>
   <p class="text-center"></p>
   <div class="usa-width-one-third services-container">
-    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <img src="/assets/img/icon.png" alt="">
     <h3>Project Management</h3>
     <p>OTS knows how to manage projects -- demonstrated on some of California's largest and most complex projects. Technology is not the most difficult challenge to overcome on the largest projects, and we understand this. </p>
   </div>
   <div class="usa-width-one-third services-container">
-    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <img src="/assets/img/icon.png" alt="">
     <h3>Agile Development</h3>
     <p>Managing a single agile team is hard, but try integrating multiple dependant teams. OTS is actively doing this on California's Child Welfare project, arguably the largest agile government project in the country.</p>
   </div>
     <div class="usa-width-one-third services-container">
-    <img src="{{ site.baseurl }}/assets/dist/img/icon.png" alt="">
+    <img src="/assets/img/icon.png" alt="">
     <h3>Legacy Modernization</h3>
     <p>OTS has experience with legacy modernization that can translate into success for your most difficult modernization projects.</p>
   </div>
@@ -34,16 +34,16 @@ title: Oak Technical Services
 
   <div class="usa-grid banner-bar">
     <div class="usa-width-one-fourth">
-      <img src="{{ site.baseurl }}/assets/dist/img/pmp.png" alt="PMP" class="block-center">
+      <img src="/assets/img/pmp.png" alt="PMP" class="block-center">
     </div>
     <div class="usa-width-one-fourth">
-      <img src="{{ site.baseurl }}/assets/dist/img/java-logo.png" alt="Java" class="block-center">
+      <img src="/assets/img/java-logo.png" alt="Java" class="block-center">
     </div>
     <div class="usa-width-one-fourth">
-      <img src="{{ site.baseurl }}/assets/dist/img/micro.png" alt="Microsoft" class="block-center">
+      <img src="/assets/img/micro.png" alt="Microsoft" class="block-center">
     </div>
     <div class="usa-width-one-fourth">
-      <img src="{{ site.baseurl }}/assets/dist/img/evolve.png" alt="Evolveware" class="block-center">
+      <img src="/assets/img/evolve.png" alt="Evolveware" class="block-center">
     </div>
   </div>
 
@@ -55,19 +55,19 @@ title: Oak Technical Services
       {% for post in site.posts limit:3 %}
       <div class="card">
         <div class="card-image">
-          <img src="{{ site.baseurl }}/{{ post.image }}" alt="">
+          <img src="{{ post.image }}" alt="">
         </div>
         <div class="card-header">
           {{ post.title }}
         </div>
         <div class="card-copy">
           <p>{{ post.excerpt }}</p>
-          <a href="{{ site.baseurl }}/{{ post.url }}" class="block-center text-center">READ MORE</a>
+          <a href="{{ post.url }}" class="block-center text-center">READ MORE</a>
         </div>
       </div>
       {% endfor %}
     </div>
-    <button class="block-center usa-button usa-button-big"><a href="{{ site.baseurl }}/thoughts/">VIEW ALL POSTS</a></button>
+    <button class="block-center usa-button usa-button-big"><a href="/thoughts/">VIEW ALL POSTS</a></button>
   </div>
 </div>
 

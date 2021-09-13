@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Legacy Modernization Revolution (Part 2)
-image: assets/dist/img/cattle.jpg
+image: /assets/img/cattle.jpg
 excerpt: Changes are afoot in government application development (part 2)
 ---
 
@@ -37,7 +37,7 @@ No -- this use of the cloud also involves writing a new type of code that actual
 Since the infrastructure can become a series of software componets (e.g. Ansible scripts, Jenkins scripts, Docker containers, etc.) a single environment can be spun up quickly and torn down just as quickly. Refactor, and do it again. 
 Infrastructure is no longer a treasured component of the project, meticulously cared for and fed. Infrastructure becomes like cattle, not pets. 
 
-![cattle, not pets](/assets/dist/img/cattle.jpg)
+![cattle, not pets](/assets/img/cattle.jpg)
 
 ## DevOps
 
