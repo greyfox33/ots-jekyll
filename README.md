@@ -6,7 +6,7 @@
 2. test the pages. from within the ots-jekyll directory 
     $bundle exec jekyl serve
 or, to just build and if any errors, do "bundle exec jekyll build"
-3. view and test the site to make sure all is well
+3. view and test the site to make sure all is well. (you should be able to see the URL in the command output)
 3. Once everything is working, copy the entire contents of _site to greyfox33.github.io
 - make sure the CNAME file is there
 5. run $sh update.sh  -- this updates git, and pushes the files to greyfox33.github.io
